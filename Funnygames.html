@@ -19,35 +19,56 @@
         @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
         body{margin-right: 7vw;
              margin-bottom: 40px;}
-        main{margin-left: 30vw;}
+
+        .C1{font-size: 36px;
+           font-weight: 600;
+           margin-left: 10px;
+           margin-top: 0vw;
+           width: 25vw;
+           background-color: #f1f1f1;
+           position: fixed;
+           z-index: 0;}
+        header{position: relative;
+               z-index: 10;}
+        main{margin-left: 30vw;
+             z-index: 10;}
         h1{font-size: 36px;
            font-weight: 600;
            margin-left: 10px;
-           width: 45vw;}
+           width: 45vw;
+           background-color: #f1f1f1;}
         h2{font-size: 18px;
            font-weight: 300;
            width: 45vw;
            margin-left: 5vw;
-           color: darkgray;}
+           color: darkgray;
+           background-color: #f1f1f1;}
         h3{font-size: 15px;
            font-weight: 400;
            color: darkgray;
            margin-top: -20px;
            margin-left: 15px;
-           width: 22vw;}
+           width: 22vw;
+           background-color: #f1f1f1;}
         p{font-size: 15px; 
-          font-weight: 400;}
-        a{color: darkgray;
-          font-size: 13px;
-          text-decoration: underline;}
-        a:hover{text-decoration: none;}  
-        .bold{font-weight: 600;}
+          font-weight: 400;
+          z-index: 20;}
+        a{color: black;
+          text-decoration: none;}
+        a:hover{opacity: 0.5;
+                text-decoration: none;} 
+
+        span{color: darkgray;
+             text-decoration: underline;} 
+
+        .bold{font-weight: 600;
+              text-decoration: none;}
         .block{background: lightgray;
                    display: inline-block;}   
         .img1{width: 40vw;
               align-content: right;
               position: absolute;
-              z-index: 0;}
+              z-index: 20;}
         .img-group {width: 40vw;
                     position: absolute;
                     margin-top: 10px;
@@ -111,6 +132,7 @@
               width: 50vw;
               margin-left: 15vw;}
         b{font-size: 16px;}
+        i{font-weight: 400;}
 
         section{margin-left: 35vw;
             width: 65vw;}
@@ -131,24 +153,31 @@
     </div>
     </div>
 
+    <h1 class="C1"> <a href="#link">FUNNY GAMES</a><br>
+    </h1>
+
     <header>
-        <h1 href="#link">FUNNY GAMES: AN INTERVIEW WITH JOHN SMITH</h1>
+        <a name="link"></a>
+        <h1>FUNNY GAMES: AN INTERVIEW WITH JOHN SMITH</h1>
         <h3>This is an inverview between him & Stuart Comer, talking about his deft use of strategic ambiguity and disorderly humor.
-            <br>Reference: <a href="https://www.artforum.com/print/201105/funny-games-an-interview-with-john-smith-28064" target="_blank">FUNNY GAMES: AN INTERVIEW WITH JOHN SMITH</a></h3>
+            <br>Reference: <a href="https://www.artforum.com/print/201105/funny-games-an-interview-with-john-smith-28064" target="_blank"><span>FUNNY GAMES: AN INTERVIEW WITH JOHN SMITH</span></a>
+            <br>
+            <br>
+        </h3>
         <h2>
             <a name="link"></a>
+            <span class="bold">
             <br>
-            <br>
-            <br>
-            <span class="bold">John Smith's</span> films and videos, made over the past four decades, are puzzles that won’t be solved. His dark wit diverts the viewer into unexpected and unruly networks of meaning and absurdity. </h2>
-        
+            <br>John Smith's</span> films and videos, made over the past four decades, are puzzles that won’t be solved. His dark wit diverts the viewer into unexpected and unruly networks of meaning and absurdity. 
+        </h2>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
     </header>
     <main>
         <p>
-        <br>
-        <br>
-        <br>
-        <br>
         </p>
         <p class="ques">
             <b>STUART COMER: </b>Documentary films are allegedly about evidence; in your films, the evidence itself often functions as the "crime." For instance, in one of your best-known works, <i>The Girl Chewing Gum</i> [1976], the voice-over narration, the linguistic clues, are completely misleading with respect to the image.
