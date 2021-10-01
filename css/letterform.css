@@ -36,18 +36,18 @@
 
     @keyframes O {
     0%  {border: 10px solid black;}
-    60%{border: 10px solid yellow;}
-    90% {border: 10px solid white;}
+    40%{border: 10px solid yellow;}
+    80% {border: 10px solid white;}
     }
 
     @keyframes I {
     0%  {border: 7px solid black;}
-    60%{border: 7px solid gray;}
-    90% {border: 7px solid yellow;}
+    40%{border: 7px solid gray;}
+    80% {border: 7px solid yellow;}
     }
 
 /* 1对称 */
-.square5{background-color: black;
+.square4{background-color: black;
     width: 50px;
     height: 80px;
     position: relative;
@@ -55,7 +55,7 @@
     margin-top: 130px;
     z-index: 20;}
 
-    .line5{background-color: white;
+    .line4{background-color: white;
     width: 10px;
     height: 50px;
     position: relative;
@@ -63,7 +63,7 @@
     top: 15px;
     z-index: 30;}
 
-    .outerline5{border: 10px solid yellow;
+    .outerline4{border: 10px solid yellow;
     -webkit-mask:linear-gradient(to left, yellow, transparent );
     width: 200px;
     height: 200px;
@@ -71,7 +71,7 @@
     position: relative;
     z-index: 0;}
 
-    .innerline5{border: 7px solid gray;
+    .innerline4{border: 7px solid gray;
     -webkit-mask:linear-gradient(to left, gray, transparent );
     width: 150px;
     height: 150px;
@@ -156,7 +156,7 @@
 
 /* 2 对称 */
 
-    .square6 {
+    .square5 {
     background-color: black;
     width: 160px;
     height: 160px;
@@ -166,7 +166,7 @@
     border-radius: 50%;
     z-index: 20;}
 
-    .line6{background-color: white;
+    .line5{background-color: white;
     width: 10px;
     height: 50px;
     position: relative;
@@ -175,14 +175,14 @@
     z-index: 30;}
 
 
-    .outerline6{border: 10px solid #c1c1c1;
+    .outerline5{border: 10px solid #c1c1c1;
     width: 200px;
     height: 200px;
     border-radius: 50%;
     position: relative;
     z-index: 0;}
 
-    .innerline6{border: 7px solid yellow;
+    .innerline5{border: 7px solid yellow;
     -webkit-mask:linear-gradient(to top, gray, transparent );
     width: 150px;
     height: 150px;
@@ -275,10 +275,9 @@
     z-index: 10;}
 
 
+/* 7 */
 
-/* 8 */
-
-    .square7{background-color: black;
+    .square6{background-color: black;
     width: 50px;
     height: 80px;
     position: relative;
@@ -287,7 +286,7 @@
     transform: rotate(60deg);
     z-index: 20;}
 
-    .line7{background-color: black;
+    .line6{background-color: black;
     width: 10px;
     height: 50px;
     position: relative;
@@ -296,7 +295,7 @@
     box-shadow: 10px 5px 5px green;
     z-index: 30;}
 
-    .outerline7{border: 10px solid black;
+    .outerline6{border: 10px solid black;
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -304,7 +303,7 @@
     position: relative;
     z-index: 0;}
 
-    .innerline7{border: 7px solid black;
+    .innerline6{border: 7px solid black;
     width: 150px;
     height: 150px;
     border-radius: 50%;
@@ -315,6 +314,43 @@
     transform: rotate(-60deg);
     z-index: 10;}
 
+/* 8 */
+
+    .square7 {
+    background-color: black;
+    opacity: 2;
+    width: 50px;
+    height: 80px;
+    position: relative;
+    margin-left: 50px;
+    margin-top: 130px;
+    z-index: 20;}
+
+    .line7{background-color: white;
+    width: 10px;
+    height: 50px;
+    position: relative;
+    margin-left: 20px;
+    top: 15px;
+    z-index: 30;}
+
+    .outerline7{border: 10px solid white;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
+    z-index: 0;}
+
+    .innerline7{border: 7px solid yellow;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: relative;
+    margin-left: 18px;
+    margin-top: 18px;
+    z-index: 10;}
+
+    .C8:hover{transform: scale(1.2);}
 
 
 
