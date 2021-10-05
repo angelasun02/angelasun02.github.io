@@ -9,12 +9,20 @@
     <style>
         .C1{font-size: 36px;
         font-weight: 600;
-        margin-left: 10px;
-        margin-top: 25px;
+        margin-left: 43px;
         width: 25%;
-        min-width: 50px; 
-        position: fixed;
-        z-index: 0;}
+        min-width: 50px; }
+
+        .top{position: fixed;
+               max-width: 1450px;
+               width: 95%;
+               margin: 0 auto;
+               margin-top: 5vw;
+               display: flex;
+               flex-direction: row;
+               column-gap: 25px;
+               background-color: #f1f1f1;}
+
 
         @media screen and (max-width:480){
             .C1{width: 50px;}
@@ -25,9 +33,22 @@
 </head>
 <body>
 
-    <div class="C1"><a href="#link">FUNNY GAMES</a><br><br><br>
+    <div class="top">
+        <div class="C1"><a href="#link">FUNNY GAMES</a>
+        </div>
     </div>
+    <header>
+        <div class="left">
+        <a name="link"></a>
+        <div class="name">FUNNY GAMES: AN INTERVIEW WITH JOHN SMITH</div>
+        <div class="intro">This is an inverview between Stuart Comer & John Smith, talking about how John defts use of strategic ambiguity and disorderly humor.
+            <br>Reference: <a href="http://johnsmithfilms.com/" target="_blank"><span>JOHN SMITH's work collection</span></a>
+        </div>
 
+        <div class="info">
+            <span class="bold">John Smith's</span> films and videos, made over the past four decades, are puzzles that won’t be solved. His dark wit diverts the viewer into unexpected and unruly networks of meaning and absurdity. 
+    </div>
+    </div>
     <div class="img-group">
         <img src="image/WORSTCASESCENARIO.jpg" class="img1">
         <div class="img-tip">
@@ -38,17 +59,6 @@
         (2001-03) SD video from 35mm stills, 18 mins, B/W & colour, sound
         </p>
         </div>
-        </div>
-
-    <header>
-        <a name="link"></a>
-        <div class="name">FUNNY GAMES: AN INTERVIEW WITH JOHN SMITH</div>
-        <div class="intro">This is an inverview between Stuart Comer & John Smith, talking about how John defts use of strategic ambiguity and disorderly humor.
-            <br>Reference: <a href="http://johnsmithfilms.com/" target="_blank"><span>JOHN SMITH's work collection</span></a>
-        </div>
-
-        <div class="info">
-            <span class="bold">John Smith's</span> films and videos, made over the past four decades, are puzzles that won’t be solved. His dark wit diverts the viewer into unexpected and unruly networks of meaning and absurdity. 
         </div>
 
     </header>
@@ -246,7 +256,7 @@
         </p>
 
     </main>
-    <section>
+    <div class="group">
         <div class="img-group2">
         <img src="image/LEADINGLIGHT.jpg" class="img3">
         <div class="img-tip2">
@@ -294,7 +304,7 @@
         </p>
         </div>
         </div>
-    </section>
+    </div>
 
 <br>
 
