@@ -201,7 +201,6 @@
 
 /*ipad 768*/
         @media screen and (max-width:784px){
-        body{margin-left: 10%;}
         header{flex-direction: column;}
         .name{font-size: 30px;
             max-width: 500px;}
