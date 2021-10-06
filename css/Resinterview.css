@@ -11,7 +11,6 @@
         @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
         
     body{
-        margin-bottom: 40px;
         max-width: 1600px;
         margin-left: 5%;
         margin-right: 5%;
@@ -24,6 +23,7 @@
                width: 95%;
                margin: 0 auto;
                margin-top: 5vw;
+               overflow: hidden;
                display: flex;
                flex-direction: row;
                column-gap: 25px;
@@ -48,8 +48,8 @@
            width: 55%;
            min-width: 450px;
            margin-top: 20px;
-           margin-bottom: 90px;
-           margin-left: 175px;
+           margin-bottom: 50px;
+           margin-left: 12vw;
            color: darkgray;}
 
         .bold{font-weight: 600;
@@ -59,24 +59,24 @@
 
         .ques{color: darkkhaki;
               font-weight: 600;
-              width: 65%;
-              min-width: 300px;}
+              width: 75%;
+              max-width: 425px;}
         .ans{color: gray;
               opacity: 0.75;
               font-weight: 400;
-              width: 70%;
-              min-width: 400px;
+              width: 80%;
+              max-width:500px;
               margin-left: 15vw;}
         b{font-size: 16px;}
         i{font-weight: 400;}
 
-        .img1{
-            width: 555px;
-}
-        .img-group {width: 555px;
-                    margin-top: 50px;
-                    margin-bottom: -120px;
-                    display: inline-block;}
+        .img1{width: 100%;
+            min-width: 555px;}
+        .img-group {width: 100%;
+            margin-top: 10px;
+            margin-bottom: -120px;
+            position: relative;
+            display: inline-block;}
         .img-tip {position: relative;
             text-align: left;
             opacity: 0.75;
@@ -96,8 +96,10 @@
         font-weight: 600;}
         .p2{font-size:12pt;
         font-weight: 400;
-        width: 75%;
-        min-width: 250px;}
+        width: 80%;
+        word-wrap: break-word;
+        min-width: 250px;
+        display: block;}
 
 
 
@@ -137,11 +139,9 @@
     
         .img-group1:hover .img-tip1 {display: block;}
 
-
-        
-    
-
         .group{margin-left: 30%;
+            margin-top: 30px;
+            bottom: 25px;
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;}
@@ -167,6 +167,73 @@
     
         .img-group2:hover .img-tip2 {display: block;}
 
-        /*ipad pro 1024*/
-        /*ipad 768*/
+        @media screen and (max-width:1340px){
+            .info{margin-left: 15px;}
+        }
+
+        @media screen and (max-width:1180px){
+        .img1{min-width: 500px;}
+        .p2{min-width: 200px;}
+        main{margin-top: -55px;}
+        }
+
+        @media screen and (max-width:1115px){
+        .img1{width: 450px;}
+        .info{font-size: 15px;
+             font-weight: 400;
+             line-height: 21px;
+             width: 55%;
+             min-width: 375px;}
+        main{margin-top: 0px;}
+        }
+
+/*ipad pro 1024*/
+
+        @media screen and (max-width:1024px){
+            main{margin-left: 350px;
+                 right: 50px;}
+            .ques{width: 75%;}
+            .ans{width: 80%;}
+            body{margin-left: 3%;
+                margin-right: 5%;}
+        }
+
+/*ipad 768*/
+        @media screen and (max-width:784px){
+        body{margin-left: 10%;}
+        header{flex-direction: column;}
+        .name{font-size: 30px;
+            min-width: 500px;}
+        .intro{font-size: 14px;
+            min-width: 325px;}
+        .info{font-size: 15px;
+            margin-left: 250px;
+            margin-top: 25px;
+            margin-bottom: 15px;}
+        .p1{font-size: 14pt;}
+        .p2{font-size: 12pt;}
+        main{margin-left: 40%;}
+        .ques{width: 325px;}
+        .ans{min-width:450px;
+              margin-left: 0px;}
+        .img-tip {opacity: 0;
+            display: block;}
+        .img-group:hover .img-tip {opacity: 0.75;}
+        .img2{width: 100%;}
+        .img-tip1{width: 100%;}
+        .group{margin-left: 0;
+            bottom: 0px;
+            flex-wrap: none;}
+        .img-group2{width: 45%;
+            padding-bottom: 5px;
+            margin-left: 10px;}
+      }
+
+
+
+
         /*iphoneX 375*/
+
+        @media screen and (max-width:375px){
+        
+        }
