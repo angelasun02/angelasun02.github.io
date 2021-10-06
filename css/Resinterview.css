@@ -209,12 +209,12 @@
             margin-left: 200px;
             margin-top: 25px;
             margin-bottom: 15px;
-            max-width: 400px;}
+            min-width: 400px;}
         .p1{font-size: 14pt;}
         .p2{font-size: 12pt;}
         main{margin-left: 40%;}
         .ques{width: 325px;}
-        .ans{max-width:400px;
+        .ans{min-width:400px;
               margin-left: 0px;}
         .img-tip {opacity: 0;
             display: block;}
