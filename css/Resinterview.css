@@ -49,6 +49,7 @@
            margin-top: 20px;
            margin-bottom: 50px;
            margin-left: 12vw;
+           margin-right: 25px;
            color: darkgray;}
 
         .bold{font-weight: 600;
@@ -193,7 +194,6 @@
                  right: 50px;}
             .ques{width: 75%;}
             .ans{width: 80%;}
-        .info{margin-right: 25px;}
             body{margin-left: 3%;
                 margin-right: 5%;}
         }
