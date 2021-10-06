@@ -204,19 +204,19 @@
         body{margin-left: 10%;}
         header{flex-direction: column;}
         .name{font-size: 30px;
-            min-width: 500px;}
+            max-width: 500px;}
         .intro{font-size: 14px;
             min-width: 325px;}
         .info{font-size: 15px;
             margin-left: 200px;
             margin-top: 25px;
             margin-bottom: 15px;
-            min-width: 400px;}
+            max-width: 400px;}
         .p1{font-size: 14pt;}
         .p2{font-size: 12pt;}
         main{margin-left: 40%;}
         .ques{width: 325px;}
-        .ans{min-width:400px;
+        .ans{max-width:400px;
               margin-left: 0px;}
         .img-tip {opacity: 0;
             display: block;}
