@@ -246,11 +246,11 @@
             margin-top: -10px;}
         .ques{width: 300px;}
         .ans{min-width:375px;}
-        .img1{max-width: 350px;}
+        .img1{max-width: 400px;}
         .img2{width: 350px;}
         .img-tip1{width: 100%;}
         .group{flex-direction: column;}
-        .img-group2{width: 450px;}
+        .img-group2{width: 475px;}
         }
 
 /*iphoneX 375*/
