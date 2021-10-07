@@ -195,7 +195,8 @@
             .ques{width: 75%;}
             .ans{width: 80%;}
             .name{min-width: 500px;}
-            .info{min-width: 375px;}
+            .intro{min-width: 300px;}
+            .info{min-width: 400px;}
             body{margin-left: 3%;
                 margin-right: 5%;}
 
