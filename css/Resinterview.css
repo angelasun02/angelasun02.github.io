@@ -189,7 +189,7 @@
 
 /*ipad pro 1024*/
 
-        @media screen and (max-width:1040px){
+        @media screen and (max-width:1024px){
             main{margin-left: 350px;
                  right: 50px;}
             .ques{width: 75%;}
@@ -200,7 +200,7 @@
         }
 
 /*ipad 768*/
-        @media screen and (max-width:800px){
+        @media screen and (max-width:768px){
         header{flex-direction: column;}
         body{margin-left: 5%;}
         .name{font-size: 30px;
@@ -235,7 +235,7 @@
 
 /*iphoneX 375*/
 
-        @media screen and (max-width:400px){
+        @media screen and (max-width:420px){
         body{margin-left: 3%;
             overflow-x: hidden;}
         .intro{min-width: 260px;}
