@@ -202,6 +202,7 @@
 /*ipad 768*/
         @media screen and (max-width:784px){
         header{flex-direction: column;}
+        body{margin-left: 5%;}
         .name{font-size: 30px;
             max-width: 500px;}
         .intro{font-size: 14px;
@@ -227,34 +228,27 @@
             margin-left: 10px;}
       }
 
+      @media screen and (max-width:680px){
+        .info{margin-left: 100px;}
+        main{margin-left: 30%;}
+}
+
 /*iphoneX 375*/
 
         @media screen and (max-width:375px){
-        body{margin-left: 5%;}
-        header{min-width: 375px;}
-        .name{font-size: 30px;
-            width: 275px;}
-        .intro{font-size: 14px;
-            min-width: 275px;}
-        .info{font-size: 15px;
-            margin-left: 200px;
-            margin-top: 25px;
-            margin-bottom: 15px;
-            min-width: 400px;}
-        .p1{font-size: 14pt;}
-        .p2{font-size: 12pt;}
-        main{margin-left: 40%;}
-        .ques{width: 325px;}
-        .ans{min-width:400px;
-              margin-left: 0px;}
-        .img-tip {display: none;}
-        .img-group:hover .img-tip {opacity: 0.75;}
-        .img2{width: 100%;}
+        body{margin-left: 3%;
+            overflow-x: hidden;}
+        .intro{min-width: 260px;}
+        .info{margin-left: 15px;
+            min-width: 375px;
+            margin-bottom: 25px;}
+        main{margin-left: 75px;
+            margin-top: -10px;}
+        .ques{width: 300px;}
+        .ans{min-width:375px;}
+        .img1{max-width: 350px;}
+        .img2{width: 350px;}
         .img-tip1{width: 100%;}
-        .group{margin-left: 0;
-            bottom: 0px;
-            flex-wrap: none;}
-        .img-group2{width: 45%;
-            padding-bottom: 5px;
-            margin-left: 10px;}
+        .group{flex-direction: column;}
+        .img-group2{width: 450px;}
         }
