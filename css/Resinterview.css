@@ -244,8 +244,10 @@
             margin-bottom: 25px;}
         main{margin-left: 75px;
             margin-top: -10px;}
-        .ques{width: 300px;}
-        .ans{min-width:375px;}
+        .ques{width: 300px;
+            font-size: 15px;}
+        .ans{min-width:375px;
+            font-size: 15px;}
         .img1{max-width: 400px;}
         .img2{width: 375px;}
         .img-tip1{width: 100%;}
