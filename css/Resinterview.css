@@ -233,9 +233,9 @@
         main{margin-left: 30%;}
 }
 
-/*iphoneX 375*/
+/*iphoneXmax 414*/
 
-        @media screen and (max-width:420px){
+        @media screen and (max-width:414px){
         body{margin-left: 3%;
             overflow-x: hidden;}
         .intro{min-width: 260px;}
@@ -252,3 +252,5 @@
         .group{flex-direction: column;}
         .img-group2{width: 450px;}
         }
+
+/*iphoneX 375*/
