@@ -1,0 +1,37 @@
+*{font-family: roboto, sans-serif;
+            font-style: normal;}
+        body::-webkit-scrollbar {display: none;}
+        h1{font-size: 48px;
+        font-weight: 400;
+        position: fixed;
+        z-index: 10;
+        margin-top: -72px;}
+
+        p{font-size: 20px;
+            color: #818181;
+            position: relative;
+            z-index: 0;
+            max-width: 30%;
+            min-width: 430px;
+            font-weight: 300;
+            margin-top: 80px;
+            margin-left: 3px;}
+
+        .note{margin-top: 0px;
+            color: #D28686;}
+
+        .time{font-size: 47px;
+        font-weight: 400;
+        position: fixed;
+        z-index: 10;
+        color: #A00000;
+        margin-left: 45%;
+        margin-top: -72px;}
+
+        .y2021{font-size: 48px;
+        font-weight: 400;
+        position: fixed;
+        z-index: 10;
+        margin-top: -72px;
+        right: 10px;}
+
