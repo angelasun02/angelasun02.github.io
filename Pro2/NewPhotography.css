@@ -14,7 +14,7 @@
             margin: 0;
             z-index: 10;}
         p{font-size: 20px;
-            color: #818181;
+            color: #4E4E4E;
             max-width: 30%;
             min-width: 430px;
             font-weight: 300;
@@ -48,7 +48,7 @@
         .time{display: flex;
             font-size: 36px;
             font-weight: 300;
-            color: #D28686;
+            color: #D97B7B;
             flex-direction: row;
             flex-wrap: wrap;
             column-gap: 100px;
@@ -67,6 +67,7 @@
           cursor: crosshair;}
         a:hover{text-decoration: none;
             color: #A00000;
+            font-weight: 400;
             opacity: 0.8;}
 
         .h2021{color: #A00000;
