@@ -55,7 +55,7 @@
             flex-wrap: wrap;
             column-gap: 100px;
             height: 120px;}
-        
+
         .time7{margin-left: 85px;}
         .line{width: 2300px;
             height: 2px;
@@ -84,3 +84,5 @@
             -webkit-mask:linear-gradient(to bottom, #A00000, transparent );
             font-size: 360px;
             font-weight: 200;}
+
+//* missing style
