@@ -2,6 +2,8 @@ console.log('working.');
 var t1 = ["one","two","three"];
 var t2 = ["monkey","fish","cat"];
 var t3 = ["water","earth","word"];
+var button = document.querySelector("button");
+
 
 // console.log(Math.floor(Math.random() * t1.length));
 
