@@ -55,14 +55,7 @@
             flex-wrap: wrap;
             column-gap: 100px;
             height: 120px;}
-        span{display: flex;
-            font-size: 36px;
-            font-weight: 300;
-            color: #D97B7B;
-            flex-direction: row;
-            flex-wrap: wrap;
-            column-gap: 100px;
-            height: 120px;}
+        
         .time7{margin-left: 85px;}
         .line{width: 2300px;
             height: 2px;
