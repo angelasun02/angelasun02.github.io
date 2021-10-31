@@ -1,5 +1,6 @@
-*{font-family: roboto, sans-serif;
-            font-style: normal;}
+        *{font-family: roboto, sans-serif;
+            font-style: normal;
+            cursor: default;}
         body::-webkit-scrollbar {display: none;}
         h1{font-size: 48px;
         font-weight: 400;
@@ -14,10 +15,11 @@
             margin: 0;
             z-index: 10;}
         p{font-size: 20px;
+            line-height: 27px;
             color: #4E4E4E;
             max-width: 30%;
             min-width: 430px;
-            font-weight: 300;
+            font-weight: 400;
             margin-top: 100px;
             margin-left: 3px;
             position: fixed;
@@ -35,7 +37,7 @@
             height: 3px;
             opacity: 0.8;
             margin-left: 175px;
-            margin-top: 555px;
+            margin-top: 590px;
             background-color: #A00000;
             position: fixed;
             z-index: 20;}
@@ -63,7 +65,7 @@
             z-index: 10;}
 
         a{text-decoration: none;
-          color: #D28686;
+          color: #D97B7B;
           cursor: crosshair;}
         a:hover{text-decoration: none;
             color: #A00000;
@@ -71,6 +73,7 @@
             opacity: 0.8;}
 
         .h2021{color: #A00000;
+            text-decoration: none;
             background-color: white;
             margin-left: 75px;
             margin-top: -400px;
