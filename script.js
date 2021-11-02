@@ -2,7 +2,7 @@
                 $( "h2" ).click(function() {
                     $("body").toggleClass('on');
                 });
-                });
+                
 
                /*if($('body').hasClass('.a') ) {
                     this.removeClass('.a, .b, .c');
@@ -16,4 +16,4 @@
                 // - remove all classes like above^
                 // -body.addClass('.c');
 
-                
+                });
