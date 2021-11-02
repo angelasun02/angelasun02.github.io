@@ -40,7 +40,7 @@
         font-weight: 400;
         position: fixed;
         z-index: 10;
-        margin-top: -72px;}
+        margin-top: 0px;}
 
         a{color: black;
             text-decoration: none;
@@ -48,6 +48,11 @@
 
         a:hover{color: #A00000;
             text-decoration: none;}
+
+
+        .menu{position: fixed;
+            z-index: 0;
+            margin-top: 0px;}
 
         p{font-size: 20px;
             line-height: 27px;
@@ -59,55 +64,74 @@
             font-weight: 400;
             margin-top: 80px;
             margin-left: 3px;}
+            
+        .MA,.SH,.DA,.OA,.ZJM,.IR,.IB,.DL{font-size: 36px;
+            color: #A00000;
+            margin-bottom: -50px;
+            cursor: crosshair;}
+
+        .MA1,.SH1,.DA1,.OA1,.ZJM1,.IR1,.IB1,.DL1{position: fixed;
+            border: 1px solid #D97B7B;
+            color: #D97B7B;;
+            padding-left: 10px;
+            padding-right: 10px;
+            margin-left: 10px;
+            margin-top: 2px;
+            font-size: 20px;
+            border-radius: 25%;
+            display: none;}
+
+        .crossL{width: 40px;
+            height: 3px;
+            margin-top: 75px;
+            margin-left: 5px;
+            margin-bottom: -50px;
+            background-color: #A00000;}
 
         .note{margin-top: 0px;
             color: #A00000;
-            opacity: 0.7;}
+            opacity: 0.7;
+            margin-bottom: -50px;}
 
         .blank{height: 18px;}
 
-        .time{font-size: 47px;
+        #time{font-size: 47px;
         font-weight: 400;
         position: fixed;
-        z-index: 10;
+        z-index: 20;
         color: #A00000;
         margin-left: 45%;
-        margin-top: -72px;}
+        margin-top: 0px;}
 
         .y2021{font-size: 48px;
         font-weight: 400;
         position: fixed;
         z-index: 10;
-        margin-top: -72px;
+        margin-top: 0px;
         right: 72px;}
 
-        img{width: 720px;
+        .collection{
+            width: 50%;
             margin-left: 45%;
-            margin-top: 5px;
+            margin-top: 77px;
             position: fixed;
-            z-index: 50;}
+            z-index: 50;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            column-gap: 3px;
+            row-gap: 3px;}
 
-        .first{position: fixed;
-            font-size: 36px;
-            line-height: 45px;
-            font-weight: 500;
-            color: black;
-            margin-left: 45%;
-            margin-top: 500px;}
+        img{height: 200px;}
+        .img1intro,.img2intro,.img3intro,.img4intro,.img5intro,.img6intro,.img7intro,.img8intro,.img9intro{
+            display: none;
+            position: fixed;
+            margin-top: 156px;
+            margin-left: -500px;
+            font-size: 20px;}
 
-        .second{position: fixed;
-            font-size: 24px;
-            line-height: 30px;
-            font-weight: 500;
-            color: #4E4E4E;
-            opacity: 0.7;
-            right: 80px;
-            text-align: right;
-            margin-top: 510px;}
 
-        .second:hover{
-            color: #A00000;
-            opacity: 0.7;
-            cursor: crosshair;}
+
+
 
 
