@@ -29,9 +29,9 @@
                background-color: #f1f1f1;}
 
         .name{font-size: 36px;
-           font-weight: 600;
+           font-weight: 500;
            margin-left: 10px;
-           width: 45%;
+           width: 80%;
            min-width: 375px;}
         .intro{font-size: 15px;
            font-weight: 400;
@@ -39,26 +39,25 @@
            color: darkgray;
            margin-top: 5px;
            margin-left: 15px;
-           width: 25%;
+           width: 42%;
            min-width: 225px;}
 
         .info{font-size: 18px;
            font-weight: 300;
            width: 55%;
            min-width: 450px;
-           margin-top: 20px;
-           margin-bottom: 50px;
+           margin-top: 80px;
            margin-left: 12vw;
            margin-right: 25px;
            color: darkgray;}
 
-        .bold{font-weight: 600;
+        .bold{font-weight: 500;
               text-decoration: none;}
         .block{background: lightgray;
                display: inline-block;} 
 
         .ques{color: darkkhaki;
-              font-weight: 600;
+              font-weight: 500;
               width: 75%;
               max-width: 425px;}
         .ans{color: gray;
@@ -67,7 +66,8 @@
               width: 80%;
               max-width:500px;
               margin-left: 15vw;}
-        b{font-size: 16px;}
+        b{font-size: 16px;
+            font-weight: 500;}
         i{font-weight: 400;}
 
         .img1{width: 100%;
@@ -93,7 +93,7 @@
         .img-group:hover .img-tip {opacity: 0.75;}
 
         .p1{font-size:14pt;
-        font-weight: 600;}
+        font-weight: 500;}
         .p2{font-size:12pt;
         font-weight: 400;
         width: 80%;
@@ -248,9 +248,9 @@
         main{margin-left: 75px;
             margin-top: -10px;}
         .ques{width: 300px;
-            font-size: 15px;}
+            font-size: 18px;}
         .ans{min-width:375px;
-            font-size: 15px;}
+            font-size: 18px;}
         .img1{max-width: 400px;}
         .img2{width: 375px;}
         .img-tip1{width: 100%;}
