@@ -1,8 +1,6 @@
             $(document).ready(function(){
                 $( "h2" ).click(function() {
                     $("body").toggleClass('on');
-                    $( "h2" ).hover(function() {
-                    $("body").toggleClass('on');
                 });
 
                /*if($('body').hasClass('.a') ) {
