@@ -30,7 +30,13 @@
         </style> 
 
         <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-        <script language="javascript" src="script.js"></script>
+        <script language="javascript">
+            $(document).ready(function(){
+                $( "h2" ).click(function() {
+                    $("body").toggleClass('on');
+                });
+                });
+        </script>
 
     </head>
 
