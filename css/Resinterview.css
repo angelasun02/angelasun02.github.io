@@ -251,6 +251,10 @@
             font-size: 18px;}
         .ans{min-width:375px;
             font-size: 18px;}
+        .p1{font-size: 16pt;
+            font-weight: 600;}
+        .p2{font-size: 14pt;
+            font-weight: 400;}
         .img1{max-width: 400px;}
         .img2{width: 375px;}
         .img-tip1{width: 100%;}
