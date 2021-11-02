@@ -172,11 +172,11 @@
             z-index: 50;
             display: flex;
             flex-direction: row;
-            flex-wrap: wrap;
-            column-gap: 3px;
-            row-gap: 3px;}
+            flex-wrap: wrap;}
 
-        img{height: 200px;}
+        img{height: 200px;
+            margin-right: 3px;
+            margin-bottom: 3px;}
         .img1intro,.img2intro,.img3intro,.img4intro,.img5intro,.img6intro,.img7intro,.img8intro,.img9intro{
             display: none;
             position: fixed;
