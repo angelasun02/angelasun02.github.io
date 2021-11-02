@@ -259,5 +259,6 @@ $(document).ready(function(){
     $(".img8").css("display","none");
     $(".img2").css("display","none");
   });
-
 });
+
+//how to jump between images
