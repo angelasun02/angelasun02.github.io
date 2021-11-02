@@ -35,7 +35,7 @@
             z-index: 50;
             transform: rotate(-30deg);}
 
-        .left{position: fixed;
+        .left2,.left3,.left4,.left5,.left6,.left7,.left8,.left9{position: fixed;
             height: 50px;
             width: 50px;
             display: block;
@@ -43,10 +43,9 @@
             bottom: 50px;
             font-size: 48px;
             color: lightgray;
-            display: none;
             z-index: 45;}
 
-        .right{position: fixed;
+        .right1,.right2,.right3,.right4,.right5,.right6,.right7,.right8{position: fixed;
             height: 50px;
             width: 50px;
             display: block;
@@ -54,15 +53,41 @@
             bottom: 50px;
             font-size: 48px;
             color: lightgray;
-            display: none;
             z-index: 45;}
 
-        .left:hover{color: #A00000;
+        .left2:hover{color: #A00000;
+            text-decoration: none;}
+        .left3:hover{color: #A00000;
+            text-decoration: none;}
+        .left4:hover{color: #A00000;
+            text-decoration: none;}
+        .left5:hover{color: #A00000;
+            text-decoration: none;}
+        .left6:hover{color: #A00000;
+            text-decoration: none;}
+        .left7:hover{color: #A00000;
+            text-decoration: none;}
+        .left8:hover{color: #A00000;
+            text-decoration: none;}
+        .left9:hover{color: #A00000;
             text-decoration: none;}
 
-        .right:hover{color: #A00000;
+        .right1:hover{color: #A00000;
             text-decoration: none;}
-
+        .right2:hover{color: #A00000;
+            text-decoration: none;}
+        .right3:hover{color: #A00000;
+            text-decoration: none;}
+        .right4:hover{color: #A00000;
+            text-decoration: none;}
+        .right5:hover{color: #A00000;
+            text-decoration: none;}
+        .right6:hover{color: #A00000;
+            text-decoration: none;}
+        .right7:hover{color: #A00000;
+            text-decoration: none;}
+        .right8:hover{color: #A00000;
+            text-decoration: none;}
 
 
         h1{font-size: 48px;
