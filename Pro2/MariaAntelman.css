@@ -165,7 +165,7 @@
         right: 72px;}
 
         .collection{
-            width: 50%;
+            width: 53%;
             margin-left: 45%;
             margin-top: 77px;
             position: fixed;
@@ -177,6 +177,8 @@
         img{height: 200px;
             padding-right: 3px;
             padding-bottom: 3px;}
+        .blank{width: 20px;
+            height: 20px;}
         .img1intro,.img2intro,.img3intro,.img4intro,.img5intro,.img6intro,.img7intro,.img8intro,.img9intro{
             display: none;
             position: fixed;
