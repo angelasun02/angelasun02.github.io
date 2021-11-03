@@ -177,7 +177,9 @@
         img{height: 200px;
             padding-right: 3px;
             padding-bottom: 3px;}
-        .blank{width: 20px;
+        .imgblank1{width: 20px;
+            height: 20px;}
+        .imgblank2{width: 200px;
             height: 20px;}
         .img1intro,.img2intro,.img3intro,.img4intro,.img5intro,.img6intro,.img7intro,.img8intro,.img9intro{
             display: none;
