@@ -126,7 +126,7 @@
 
         .MA1,.SH1,.DA1,.OA1,.ZJM1,.IR1,.IB1,.DL1{position: fixed;
             border: 1px solid #D97B7B;
-            color: #D97B7B;;
+            color: #D97B7B;
             padding-left: 10px;
             padding-right: 10px;
             margin-left: 10px;
@@ -189,8 +189,20 @@
             font-size: 20px;
             line-height: 27px;}
 
-
-
-
+        .rest{font-size: 36px;
+            color: #A00000;}
+        .restintro{font-size: 20px;
+            color: #D97B7B;
+            margin-top: -20px;}
+        .moma{color: #D97B7B;}
+        .restwrap{
+            width: 53%;
+            margin-left: 45%;
+            margin-top: -13px;
+            position: fixed;
+            z-index: 50;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;}
 
 
