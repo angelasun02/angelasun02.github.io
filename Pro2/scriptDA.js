@@ -2,8 +2,8 @@ var now = new Date();
 var hour = now.getHours();
 var minute = now.getMinutes();
 var second = now.getSeconds();
-if(hour <= 11 && minute <= 30 && second <= 0){window.location.href='DavidAlekhuogie.html';}
-else if(hour >= 11 && minute >= 30 && second >= 0){window.location.href='Break1.html';}
+if(hour <= 11 && minute <= 0 && second <= 0){window.location.href='DavidAlekhuogie.html';}
+else if(hour >= 11 && minute >= 0 && second >= 0){window.location.href='Break1.html';}
 
 
 //for image link only 
