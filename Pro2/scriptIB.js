@@ -2,8 +2,8 @@ var now = new Date();
 var hour = now.getHours();
 var minute = now.getMinutes();
 var second = now.getSeconds();
-if(hour <= 17 && minute <= 30 && second <= 0){window.location.href='IñakiBonillas.html';}
-else if(hour >= 17 && minute >= 30 && second >= 0){window.location.href='DionneLee.html';}
+if(hour <= 17 && minute <= 0 && second <= 0){window.location.href='IñakiBonillas.html';}
+else if(hour >= 17 && minute >= 0 && second >= 0){window.location.href='DionneLee.html';}
 
 
 
