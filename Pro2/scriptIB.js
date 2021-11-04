@@ -1,8 +1,10 @@
 var now = new Date();
 var hour = now.getHours();
 var minute = now.getMinutes();
-if(hour <= 17 && minute <= 30){window.location.href='IñakiBonillas.html';}
-else if(hour >= 17 && minute <= 30){window.location.href='DionneLee.html';}
+var second = now.getSeconds();
+if(hour <= 17 && minute <= 30 && second <= 0){window.location.href='IñakiBonillas.html';}
+else if(hour >= 17 && minute >= 30 && second >= 0){window.location.href='DionneLee.html';}
+
 
 
 //for image link only 
