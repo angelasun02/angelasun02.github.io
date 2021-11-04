@@ -1,4 +1,20 @@
-//for image link only 
+var now = new Date();
+var hour = now.getHours();
+var minute = now.getMinutes();
+if(hour <= 8 && minute <= 30){window.location.href='Break.html';}
+else if(hour <= 9 && minute <= 30){window.location.href='MariaAntelman.html';}
+else if(hour <= 10 && minute <= 30){window.location.href='SohrabHura.html';}
+else if(hour <= 11 && minute <= 30){window.location.href='DavidAlekhuogie.html';}
+else if(hour <= 13 && minute <= 30){window.location.href='Break.html';}
+else if(hour <= 14 && minute <= 30){window.location.href='ÖzlemAltın.html';}
+else if(hour <= 15 && minute <= 30){window.location.href='ZoraJMurff.html';}
+else if(hour <= 16 && minute <= 30){window.location.href='IrinaRozovsky.html';}
+else if(hour <= 17 && minute <= 30){window.location.href='IñakiBonillas.html';}
+else if(hour <= 18 && minute <= 30){window.location.href='DionneLee.html';}
+else if(hour >= 18 && minute >= 30){window.location.href='Break.html';}
+
+
+  //for image link only 
 $(document).ready(function(){
   $("h1").hover(function(){
     $(".y2021").css("color", "#A00000");
