@@ -1,16 +1,17 @@
 var now = new Date();
 var hour = now.getHours();
 var minute = now.getMinutes();
-
-if(8 <= hour <= 9 && minute <= 30){window.location.href='MariaAntelman.html';}
-if(hour <= 10 && minute <= 30){window.location.href='SohrabHura.html';}
-if(hour <= 11 && minute <= 30){window.location.href='DavidAlekhuogie.html';}
-if(hour <= 14 && minute <= 30){window.location.href='ÖzlemAltın.html';}
-if(hour <= 15 && minute <= 30){window.location.href='ZoraJMurff.html';}
-if(hour <= 16 && minute <= 30){window.location.href='IrinaRozovsky.html';}
-if(hour <= 17 && minute <= 30){window.location.href='IñakiBonillas.html';}
-if(hour <= 18 && minute <= 30){window.location.href='DionneLee.html';}
-else {window.location.href='Break.html';}
+if(0 <= hour <= 8 && minute <= 30){window.location.href='Break.html';}
+else if(8 <= hour <= 9 && minute <= 30){window.location.href='MariaAntelman.html';}
+else if(9 <= hour <= 10 && minute <= 30){window.location.href='SohrabHura.html';}
+else if(10 <= hour <= 11 && minute <= 30){window.location.href='DavidAlekhuogie.html';}
+else if(11 <= hour <= 13 && minute <= 30){window.location.href='Break.html';}
+else if(13 <= hour <= 14 && minute <= 30){window.location.href='ÖzlemAltın.html';}
+else if(14 <= hour <= 15 && minute <= 30){window.location.href='ZoraJMurff.html';}
+else if(15 <= hour <= 16 && minute <= 30){window.location.href='IrinaRozovsky.html';}
+else if(16 <= hour <= 17 && minute <= 30){window.location.href='IñakiBonillas.html';}
+else if(17 <= hour <= 18 && minute <= 30){window.location.href='DionneLee.html';}
+else if(hour >= 18 && minute <= 30){window.location.href='Break.html';}
 
 
 
