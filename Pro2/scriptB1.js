@@ -4,6 +4,24 @@ var minute = now.getMinutes();
 var second = now.getSeconds();
 if(hour <= 13 && minute <= 0 && second <= 0){window.location.href='Break1.html';}
 else if(hour >= 13 && minute >= 0 && second >= 0){window.location.href='ÖzlemAltın.html';}
+function refreshAt(hours, minutes, seconds) {
+    var now = new Date();
+    var then = new Date();
+
+    if(now.getHours() > hours ||
+       (now.getHours() == hours && now.getMinutes() > minutes) ||
+        now.getHours() == hours && now.getMinutes() == minutes && now.getSeconds() >= seconds) {
+        then.setDate(now.getDate() + 1);
+    }
+    then.setHours(hours);
+    then.setMinutes(minutes);
+    then.setSeconds(seconds);
+
+    var timeout = (then.getTime() - now.getTime());
+    setTimeout(function() { window.location.reload(true); }, timeout);
+}
+refreshAt(13,0,0); //Will refresh the page at 13:00pm
+
 
 
 //for image link only 
