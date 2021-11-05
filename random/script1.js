@@ -24,6 +24,7 @@ t3_element.text(random_t3);
 
 $('button').click(function(){
     console.log('clicked');
+    window.location.reload(true);
 });
 });
 
