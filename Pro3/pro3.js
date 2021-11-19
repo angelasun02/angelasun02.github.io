@@ -146,10 +146,35 @@
                     $(".star5").css('color','#00FF38');
                     $(".star6").css('color','#00FF38');
                 });
-                $( ".group1" ).click(function() {
-                $(".group1").toggleClass('.container1');
+                $( ".container1" ).click(function() {
+                    $(".container1").toggleClass('container11');
+                });
+                $( ".container2" ).click(function() {
+                    $(".container2").toggleClass('container21');
+                });
+                $( ".container3" ).click(function() {
+                    $(".container3").toggleClass('container31');
+                });
+                $( ".container4" ).click(function() {
+                    $(".container4").toggleClass('container41');
+                });
+                $( ".container5" ).click(function() {
+                    $(".container5").toggleClass('container51');
+                });
+                $( ".refresh" ).click(function() {
+                    $(".refresh").toggleClass('refresh1');
+                });
+                $( ".generate" ).click(function() {
+                    $(".generate").toggleClass('generate1');
                 });
                 });
+
+                
+
+
+                
+                
+              
                 
 
                 
