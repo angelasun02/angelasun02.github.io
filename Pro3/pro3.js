@@ -9,6 +9,14 @@
                     $(".colorgroup4").css('display','none');
                     $(".colorgroup5").css('display','none');
                     $(".colorgroup1on").css('display','inline-block');
+                    $(".header").css('color','#52FF00');
+                    $(".title").css('color','#00FF38');
+                    $(".line1").css('background-color','#52FF00');
+                    $(".line2").css('background-color','#52FF00');
+                    $(".line3").css('background-color','#52FF00');
+                    $(".line4").css('background-color','#52FF00');
+                    $(".star5").css('color','#52FF00');
+                    $(".star6").css('color','#52FF00');
                 });
                 $( ".colorgroup1on" ).click(function() {
                     $(".colorgroup1on").css('display','none');
@@ -41,14 +49,6 @@
                     $(".colorgroup3").css('display','inline-block');
                     $(".colorgroup4").css('display','inline-block');
                     $(".colorgroup5").css('display','inline-block');
-                    $(".header").css('color','#52FF00');
-                    $(".title").css('color','#00FF38');
-                    $(".line1").css('background-color','#00FF38');
-                    $(".line2").css('background-color','#00FF38');
-                    $(".line3").css('background-color','#00FF38');
-                    $(".line4").css('background-color','#00FF38');
-                    $(".star5").css('color','#00FF38');
-                    $(".star6").css('color','#00FF38');
                 });
                 $( ".colorgroup3" ).click(function() {
                     $(".colorgroup1").css('display','none');
@@ -73,14 +73,6 @@
                     $(".colorgroup3").css('display','inline-block');
                     $(".colorgroup4").css('display','inline-block');
                     $(".colorgroup5").css('display','inline-block');
-                    $(".header").css('color','#52FF00');
-                    $(".title").css('color','#00FF38');
-                    $(".line1").css('background-color','#00FF38');
-                    $(".line2").css('background-color','#00FF38');
-                    $(".line3").css('background-color','#00FF38');
-                    $(".line4").css('background-color','#00FF38');
-                    $(".star5").css('color','#00FF38');
-                    $(".star6").css('color','#00FF38');
                 });
                 $( ".colorgroup4" ).click(function() {
                     $(".colorgroup1").css('display','none');
@@ -91,12 +83,12 @@
                     $(".colorgroup4on").css('display','inline-block');
                     $(".header").css('color','#FFC700');
                     $(".title").css('color','#FF8A00');
-                    $(".line1").css('background-color','#FF8A00');
-                    $(".line2").css('background-color','#FF8A00');
-                    $(".line3").css('background-color','#FF8A00');
-                    $(".line4").css('background-color','#FF8A00');
-                    $(".star5").css('color','#FF8A00');
-                    $(".star6").css('color','#FF8A00');
+                    $(".line1").css('background-color','#FFC700');
+                    $(".line2").css('background-color','#FFC700');
+                    $(".line3").css('background-color','#FFC700');
+                    $(".line4").css('background-color','#FFC700');
+                    $(".star5").css('color','#FFC700');
+                    $(".star6").css('color','#FFC700');
                 });
                 $( ".colorgroup4on" ).click(function() {
                     $(".colorgroup4on").css('display','none');
@@ -105,14 +97,6 @@
                     $(".colorgroup3").css('display','inline-block');
                     $(".colorgroup4").css('display','inline-block');
                     $(".colorgroup5").css('display','inline-block');
-                    $(".header").css('color','#52FF00');
-                    $(".title").css('color','#00FF38');
-                    $(".line1").css('background-color','#00FF38');
-                    $(".line2").css('background-color','#00FF38');
-                    $(".line3").css('background-color','#00FF38');
-                    $(".line4").css('background-color','#00FF38');
-                    $(".star5").css('color','#00FF38');
-                    $(".star6").css('color','#00FF38');
                 });
                 $( ".colorgroup5" ).click(function() {
                     $(".colorgroup1").css('display','none');
@@ -137,14 +121,6 @@
                     $(".colorgroup3").css('display','inline-block');
                     $(".colorgroup4").css('display','inline-block');
                     $(".colorgroup5").css('display','inline-block');
-                    $(".header").css('color','#52FF00');
-                    $(".title").css('color','#00FF38');
-                    $(".line1").css('background-color','#00FF38');
-                    $(".line2").css('background-color','#00FF38');
-                    $(".line3").css('background-color','#00FF38');
-                    $(".line4").css('background-color','#00FF38');
-                    $(".star5").css('color','#00FF38');
-                    $(".star6").css('color','#00FF38');
                 });
                 $( ".container1" ).click(function() {
                     $(".container1").toggleClass('container11');
