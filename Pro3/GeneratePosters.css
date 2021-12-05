@@ -86,7 +86,8 @@
                 height: 11px;
                 margin-left: 1251.5px;
                 margin-top: 80px;
-                color: #00FF38;}
+                color: #00FF38;
+                cursor: crosshair;}
             .star1 {position: absolute;
                 width: 10px;
                 height: 11px;
@@ -321,16 +322,19 @@
                 background: #B7DB52;
                 box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);}
 
-            .text1{position: absolute;
+                .text1{position: absolute;
                 cursor: crosshair;
                 width: 117px;
                 height: 19px;
                 left: 139px;
                 top: 326px;
+                font-size: 12px;
+                color:#686868;
                 box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
                 border: 1px solid rgba(255, 255, 255, 0.6);
                 border-radius: 2px;}
-            .type1{position: absolute;
+
+                .type1{position: absolute;
                 cursor: crosshair;
                 width: 1.5px;
                 height: 12px;
@@ -338,15 +342,21 @@
                 top: 331px;
                 background-color: #C4C4C4;}
 
-            .text2{position: absolute;
+                .text2{position: absolute;
                 cursor: crosshair;
                 width: 190px;
                 height: 64px;
                 left: 139px;
                 top: 388px;
+                font-size: 12px;
+                line-height: 16px;
+                padding-left: 5px;
+                padding-right: 5px;
+                color:#686868;
                 box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
                 border: 1px solid rgba(255, 255, 255, 0.6);
                 border-radius: 2px;}
+
             .type2{position: absolute;
                 cursor: crosshair;
                 width: 1.5px;
@@ -354,6 +364,11 @@
                 left: 147px;
                 top: 394px;
                 background-color: #C4C4C4;}
+
+        ::-webkit-scrollbar{width: 3px;
+                            height: 100px;}
+        ::-webkit-scrollbar-thumb{right: 2px;border-radius: 10px;
+                                  background-color: #AAD6C3;}
 
             .container1{position: absolute;
                 cursor: crosshair;
@@ -366,6 +381,7 @@
                 padding-left: 13px;
                 padding-right: 10px;
                 color: #686868;
+                background-color: white;
                 box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
                 border: 1px solid rgba(255, 255, 255, 0.6);
                 border-radius: 2px;}
@@ -456,6 +472,7 @@
                 padding-left: 13px;
                 padding-right: 10px;
                 color: #686868;
+                background-color: white;
                 box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
                 border: 1px solid rgba(255, 255, 255, 0.6);
                 border-radius: 2px;}
@@ -547,6 +564,7 @@
                 padding-left: 13px;
                 padding-right: 10px;
                 color: #686868;
+                background-color: white;
                 box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
                 border: 1px solid rgba(255, 255, 255, 0.6);
                 border-radius: 2px;}
@@ -638,6 +656,7 @@
                 padding-left: 13px;
                 padding-right: 10px;
                 color: #686868;
+                background-color: white;
                 box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
                 border: 1px solid rgba(255, 255, 255, 0.6);
                 border-radius: 2px;}
@@ -729,6 +748,7 @@
                 padding-left: 13px;
                 padding-right: 10px;
                 color: #686868;
+                background-color: white;
                 box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
                 border: 1px solid rgba(255, 255, 255, 0.6);
                 border-radius: 2px;}
@@ -819,6 +839,7 @@
                 padding-left: 13px;
                 padding-right: 10px;
                 color: #686868;
+                background-color: white;
                 box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
                 border: 1px solid rgba(255, 255, 255, 0.6);
                 border-radius: 2px;}
@@ -911,6 +932,7 @@
                 padding-left: 13px;
                 padding-right: 10px;
                 color: #686868;
+                background-color: white;
                 box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
                 border: 1px solid rgba(255, 255, 255, 0.6);
                 border-radius: 2px;}
@@ -997,6 +1019,8 @@
                 left: 451px;
                 top: 214px;
                 border: 1px dashed #686868;}
+            .input1{position: relative;
+                font-size: 20px;}
             .frame2{position: absolute;
                 width: 265.57px;
                 height: 400px;

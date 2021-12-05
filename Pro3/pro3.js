@@ -2,6 +2,9 @@
                 $( ".star5" ).click(function() {
                     $("body").toggleClass('darkmode');   
                 });
+                $( ".star6" ).click(function() {
+                    $("body").toggleClass('darkmode');   
+                });
                 $( ".colorgroup1" ).click(function() {
                     $(".colorgroup1").css('display','none');
                     $(".colorgroup2").css('display','none');
@@ -137,14 +140,31 @@
                 $( ".container5" ).click(function() {
                     $(".container5").toggleClass('container51');
                 });
-                $( ".refresh" ).click(function() {
+                $( ".refresh" ).hover(function() {
                     $(".refresh").toggleClass('refresh1');
+                });
+                $( ".refresh" ).click(function() {
+                        console.log('clicked');
+                        window.location.reload(true);
                 });
                 $( ".generate" ).click(function() {
                     $(".generate").toggleClass('generate1');
                 });
+                $( ".text1" ).click(function() {
+                    $(".type1").css('display','none');
+                });
+                $( ".text2" ).click(function() {
+                    $(".type2").css('display','none');
                 });
 
+                });
+                
+var input1=document.getElementByClass('input1')
+var text1=document.getElementByClass('text1')
+input1.onkeyup=function(){
+text1.value=input1.value}
+text1.onkeyup=function(){
+input1.value=text1.value}
                 
 
 
