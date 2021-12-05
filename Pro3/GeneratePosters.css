@@ -331,7 +331,7 @@
                 font-size: 12px;
                 color:#686868;
                 box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-                border: 1px solid rgba(255, 255, 255, 0.6);
+                border: 0px solid rgba(255, 255, 255, 0);
                 border-radius: 2px;}
 
                 .type1{position: absolute;
@@ -354,7 +354,7 @@
                 padding-right: 5px;
                 color:#686868;
                 box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-                border: 1px solid rgba(255, 255, 255, 0.6);
+                border: 0px solid rgba(255, 255, 255, 0);
                 border-radius: 2px;}
 
             .type2{position: absolute;
@@ -383,7 +383,6 @@
                 color: #686868;
                 background-color: white;
                 box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-                border: 1px solid rgba(255, 255, 255, 0.6);
                 border-radius: 2px;}
             .container11{position: absolute;
                 cursor: crosshair;
@@ -398,7 +397,6 @@
                 color: white;
                 background-color: #AAD6C3;
                 box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-                border: 1px solid rgba(255, 255, 255, 0.6);
                 border-radius: 2px;}
             .container12{position: absolute;
                 cursor: crosshair;
@@ -413,7 +411,6 @@
                 color: white;
                 background-color: #9E5C53;
                 box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-                border: 1px solid rgba(255, 255, 255, 0.6);
                 border-radius: 2px;}
             .container13{position: absolute;
                 cursor: crosshair;
@@ -428,7 +425,6 @@
                 color: white;
                 background-color: #8280D8;
                 box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-                border: 1px solid rgba(255, 255, 255, 0.6);
                 border-radius: 2px;}
             .container14{position: absolute;
                 cursor: crosshair;
@@ -443,7 +439,6 @@
                 color: white;
                 background-color: #EBC4A8;
                 box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-                border: 1px solid rgba(255, 255, 255, 0.6);
                 border-radius: 2px;}
             .container15{position: absolute;
                 cursor: crosshair;
@@ -458,9 +453,8 @@
                 color: white;
                 background-color: #B7DB52;
                 box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-                border: 1px solid rgba(255, 255, 255, 0.6);
                 border-radius: 2px;}
-
+            
             .container2{position: absolute;
                 cursor: crosshair;
                 left: 224px;
@@ -474,7 +468,6 @@
                 color: #686868;
                 background-color: white;
                 box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-                border: 1px solid rgba(255, 255, 255, 0.6);
                 border-radius: 2px;}
             .container21{position: absolute;
                 cursor: crosshair;
@@ -489,7 +482,6 @@
                 color: white;
                 background-color: #AAD6C3;
                 box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-                border: 1px solid rgba(255, 255, 255, 0.6);
                 border-radius: 2px;}
             .container22{position: absolute;
                 cursor: crosshair;
@@ -504,7 +496,6 @@
                 color: white;
                 background-color: #9E5C53;
                 box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-                border: 1px solid rgba(255, 255, 255, 0.6);
                 border-radius: 2px;}
             .container23{position: absolute;
                 cursor: crosshair;
@@ -519,7 +510,6 @@
                 color: white;
                 background-color: #8280D8;
                 box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-                border: 1px solid rgba(255, 255, 255, 0.6);
                 border-radius: 2px;}
             .container24{position: absolute;
                 cursor: crosshair;
@@ -534,7 +524,6 @@
                 color: white;
                 background-color: #EBC4A8;
                 box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-                border: 1px solid rgba(255, 255, 255, 0.6);
                 border-radius: 2px;}
             .container25{position: absolute;
                 cursor: crosshair;
@@ -549,10 +538,8 @@
                 color: white;
                 background-color: #B7DB52;
                 box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-                border: 1px solid rgba(255, 255, 255, 0.6);
                 border-radius: 2px;}
-
-
+            
             .container3{position: absolute;
                 cursor: crosshair;
                 left: 307px;
@@ -566,7 +553,6 @@
                 color: #686868;
                 background-color: white;
                 box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-                border: 1px solid rgba(255, 255, 255, 0.6);
                 border-radius: 2px;}
             .container31{position: absolute;
                 cursor: crosshair;
@@ -581,7 +567,6 @@
                 color: white;
                 background-color: #AAD6C3;
                 box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-                border: 1px solid rgba(255, 255, 255, 0.6);
                 border-radius: 2px;}
             .container32{position: absolute;
                 cursor: crosshair;
@@ -596,7 +581,6 @@
                 color: white;
                 background-color: #9E5C53;
                 box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-                border: 1px solid rgba(255, 255, 255, 0.6);
                 border-radius: 2px;}
             .container33{position: absolute;
                 cursor: crosshair;
@@ -611,7 +595,6 @@
                 color: white;
                 background-color: #8280D8;
                 box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-                border: 1px solid rgba(255, 255, 255, 0.6);
                 border-radius: 2px;}
             .container34{position: absolute;
                 cursor: crosshair;
@@ -626,7 +609,6 @@
                 color: white;
                 background-color: #EBC4A8;
                 box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-                border: 1px solid rgba(255, 255, 255, 0.6);
                 border-radius: 2px;}
             .container35{position: absolute;
                 cursor: crosshair;
@@ -641,7 +623,6 @@
                 color: white;
                 background-color: #B7DB52;
                 box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-                border: 1px solid rgba(255, 255, 255, 0.6);
                 border-radius: 2px;}
 
 
@@ -658,7 +639,6 @@
                 color: #686868;
                 background-color: white;
                 box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-                border: 1px solid rgba(255, 255, 255, 0.6);
                 border-radius: 2px;}
             .container41{position: absolute;
                 cursor: crosshair;
@@ -673,7 +653,6 @@
                 color: white;
                 background-color: #AAD6C3;
                 box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-                border: 1px solid rgba(255, 255, 255, 0.6);
                 border-radius: 2px;}
             .container42{position: absolute;
                 cursor: crosshair;
@@ -688,7 +667,6 @@
                 color: white;
                 background-color: #9E5C53;
                 box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-                border: 1px solid rgba(255, 255, 255, 0.6);
                 border-radius: 2px;}
             .container43{position: absolute;
                 cursor: crosshair;
@@ -703,7 +681,6 @@
                 color: white;
                 background-color: #8280D8;
                 box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-                border: 1px solid rgba(255, 255, 255, 0.6);
                 border-radius: 2px;}
             .container44{position: absolute;
                 cursor: crosshair;
@@ -718,7 +695,6 @@
                 color: white;
                 background-color: #EBC4A8;
                 box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-                border: 1px solid rgba(255, 255, 255, 0.6);
                 border-radius: 2px;}
             .container45{position: absolute;
                 cursor: crosshair;
@@ -733,10 +709,8 @@
                 color: white;
                 background-color: #B7DB52;
                 box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-                border: 1px solid rgba(255, 255, 255, 0.6);
                 border-radius: 2px;}
-
-
+            
             .container5{position: absolute;
                 cursor: crosshair;
                 left: 229px;
@@ -750,7 +724,6 @@
                 color: #686868;
                 background-color: white;
                 box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-                border: 1px solid rgba(255, 255, 255, 0.6);
                 border-radius: 2px;}
             .container51{position: absolute;
                 cursor: crosshair;
@@ -765,7 +738,6 @@
                 color: white;
                 background-color: #AAD6C3;
                 box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-                border: 1px solid rgba(255, 255, 255, 0.6);
                 border-radius: 2px;}
             .container52{position: absolute;
                 cursor: crosshair;
@@ -780,7 +752,6 @@
                 color: white;
                 background-color: #9E5C53;
                 box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-                border: 1px solid rgba(255, 255, 255, 0.6);
                 border-radius: 2px;}
             .container53{position: absolute;
                 cursor: crosshair;
@@ -795,7 +766,6 @@
                 color: white;
                 background-color: #8280D8;
                 box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-                border: 1px solid rgba(255, 255, 255, 0.6);
                 border-radius: 2px;}
             .container54{position: absolute;
                 cursor: crosshair;
@@ -810,7 +780,6 @@
                 color: white;
                 background-color: #EBC4A8;
                 box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-                border: 1px solid rgba(255, 255, 255, 0.6);
                 border-radius: 2px;}
             .container55{position: absolute;
                 cursor: crosshair;
@@ -825,9 +794,8 @@
                 color: white;
                 background-color: #B7DB52;
                 box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-                border: 1px solid rgba(255, 255, 255, 0.6);
                 border-radius: 2px;}
-
+            
             .refresh{position: absolute;
                 cursor: crosshair;
                 left: 237px;
@@ -841,7 +809,6 @@
                 color: #686868;
                 background-color: white;
                 box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-                border: 1px solid rgba(255, 255, 255, 0.6);
                 border-radius: 2px;}
             .refresh1{position: absolute;
                 cursor: crosshair;
@@ -856,7 +823,6 @@
                 color: white;
                 background-color: #AAD6C3;
                 box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-                border: 1px solid rgba(255, 255, 255, 0.6);
                 border-radius: 2px;}
             .refresh2{position: absolute;
                 cursor: crosshair;
@@ -871,7 +837,6 @@
                 color: white;
                 background-color: #9E5C53;
                 box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-                border: 1px solid rgba(255, 255, 255, 0.6);
                 border-radius: 2px;}
             .refresh3{position: absolute;
                 cursor: crosshair;
@@ -886,7 +851,6 @@
                 color: white;
                 background-color: #8280D8;
                 box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-                border: 1px solid rgba(255, 255, 255, 0.6);
                 border-radius: 2px;}
             .refresh4{position: absolute;
                 cursor: crosshair;
@@ -901,7 +865,6 @@
                 color: white;
                 background-color: #EBC4A8;
                 box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-                border: 1px solid rgba(255, 255, 255, 0.6);
                 border-radius: 2px;}
             .refresh5{position: absolute;
                 cursor: crosshair;
@@ -916,10 +879,8 @@
                 color: white;
                 background-color: #B7DB52;
                 box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-                border: 1px solid rgba(255, 255, 255, 0.6);
                 border-radius: 2px;}
-
-
+            
             
             .generate{position: absolute;
                 cursor: crosshair;
@@ -934,7 +895,6 @@
                 color: #686868;
                 background-color: white;
                 box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-                border: 1px solid rgba(255, 255, 255, 0.6);
                 border-radius: 2px;}
             .generate1{position: absolute;
                 cursor: crosshair;
@@ -949,7 +909,6 @@
                 color: white;
                 background-color: #AAD6C3;
                 box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-                border: 1px solid rgba(255, 255, 255, 0.6);
                 border-radius: 2px;}
             .generate2{position: absolute;
                 cursor: crosshair;
@@ -964,7 +923,6 @@
                 color: white;
                 background-color: #9E5C53;
                 box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-                border: 1px solid rgba(255, 255, 255, 0.6);
                 border-radius: 2px;}
             .generate3{position: absolute;
                 cursor: crosshair;
@@ -979,7 +937,6 @@
                 color: white;
                 background-color: #8280D8;
                 box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-                border: 1px solid rgba(255, 255, 255, 0.6);
                 border-radius: 2px;}
             .generate4{position: absolute;
                 cursor: crosshair;
@@ -994,7 +951,6 @@
                 color: white;
                 background-color: #EBC4A8;
                 box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-                border: 1px solid rgba(255, 255, 255, 0.6);
                 border-radius: 2px;}
             .generate5{position: absolute;
                 cursor: crosshair;
@@ -1009,9 +965,8 @@
                 color: white;
                 background-color: #B7DB52;
                 box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-                border: 1px solid rgba(255, 255, 255, 0.6);
                 border-radius: 2px;}
-
+            
 
             .frame1{position: absolute;
                 width: 265.57px;
@@ -1027,3 +982,86 @@
                 left: 739px;
                 top: 214px;
                 border: 1px dashed #686868;}
+
+            
+            .colorbg1{position: absolute;
+                width: 265.57px;
+                height: 400px;
+                z-index: 0;
+                display: none;}
+            .colorbg21,.colorbg22,.colorbg23,.colorbg24,.colorbg25
+            {position: absolute;
+                width: 265.57px;
+                height: 400px;
+                z-index: 0;
+                display: none;}
+            .circle,.circle2,.circle3,.circle4,.circle5
+            {position: absolute;
+                width: 265.57px;
+                height: 400px;
+                z-index: 10;
+                display: none;}
+            
+            .circle1{position: absolute;
+                width: 265.57px;
+                height: 400px;
+                z-index: 10;
+                display: none;}
+
+            .square,.square2,.square3,.square4,.square5
+            {position: absolute;
+                width: 265.57px;
+                height: 400px;
+                z-index: 10;
+                display: none;}
+
+            .linee,.linee2,.linee3,.linee4,.linee5
+            {position: absolute;
+                width: 265.57px;
+                height: 400px;
+                z-index: 10;
+                display: none;}
+
+            .polygon,.polygon2,.polygon3,.polygon4,.polygon5
+            {position: absolute;
+                width: 265.57px;
+                height: 400px;
+                z-index: 10;
+                display: none;}
+
+            .ellipse,.ellipse2,.ellipse3,.ellipse4,.ellipse5
+            {position: absolute;
+                width: 265.57px;
+                height: 400px;
+                z-index: 10;
+                display: none;}
+
+            .square1,.square12,.square13,.square14,.square15
+            {position: absolute;
+                width: 265.57px;
+                height: 400px;
+                z-index: 10;
+                display: none;}
+
+            .linee1,.linee12,.linee13,.linee14,.linee15
+            {position: absolute;
+                width: 265.57px;
+                height: 400px;
+                z-index: 10;
+                display: none;}
+
+            .polygon1,.polygon12,.polygon13,.polygon14,.polygon15
+            {position: absolute;
+                width: 265.57px;
+                height: 400px;
+                z-index: 10;
+                display: none;}
+
+            .ellipse1,.ellipse12,.ellipse13,.ellipse14,.ellipse15
+            {position: absolute;
+                width: 265.57px;
+                height: 400px;
+                z-index: 10;
+                display: none;}
+
+
