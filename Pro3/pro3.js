@@ -1,6 +1,7 @@
-            $(document).ready(function(){
+
+                $(document).ready(function(){
                 $( ".star5" ).click(function() {
-                    $("body").toggleClass('darkmode');   
+                    $("body").toggleClass('darkmode'); 
                 });
                 $( ".star6" ).click(function() {
                     $("body").toggleClass('darkmode');   
@@ -302,36 +303,30 @@
                     $(".colorgroup5").css('display','inline-block');
                 });
 
-
-                
-
-
-
                 $( ".refresh" ).click(function() {
                         console.log('clicked');
                         window.location.reload(true);
                 });
-                
                 $( ".text1" ).click(function() {
                     $(".type1").css('display','none');
                 });
                 $( ".text2" ).click(function() {
                     $(".type2").css('display','none');
                 });
-
+                $(".text1").keyup(function(){
+                    $(".textp1").val($(".text1").val());
+                });
+                $(".text2").keyup(function(){
+                    $(".textp2").val($(".text2").val());
+                });
                 });
                 
-var input1=document.getElementByClass('input1')
-var text1=document.getElementByClass('text1')
-input1.onkeyup=function(){
-text1.value=input1.value}
-text1.onkeyup=function(){
-input1.value=text1.value}
-                
 
 
-                
-                
+
+
+
+  
               
                 
 

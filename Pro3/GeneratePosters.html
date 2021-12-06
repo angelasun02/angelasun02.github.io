@@ -7,10 +7,15 @@
         <link rel="stylesheet" href="GeneratePosters.css">
         <link href='https://fonts.googleapis.com/css?family=Space Mono' rel='stylesheet'>
         <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+        <script src="path/to/dom-to-image.min.js"></script>
         <script src="pro3.js"></script>
+
+
 
     </head>
     <body>
+
+<div id="element" style="width:1470px; height:720px;">
     <div class="line1"></div>
     <div class="line3"></div>
     <div class="star5">&diams;</div>
@@ -69,15 +74,20 @@
         <div class="colorgroup5on">
             <div class="color9on"></div>
             <div class="color10on"></div>
-        </div>   
+        </div>  
+         
         <form>
             <textarea class="text1"></textarea>
+            <textarea class="textp1"></textarea>
+            <div class="type1"></div>
         </form>
-        <div class="type1"></div>
+        
         <form>
             <textarea class="text2"></textarea>
+            <textarea class="textp2"></textarea>
+            <div class="type2"></div>
         </form>
-        <div class="type2"></div>
+        
         
         <div class="container1">circle</div>
         
@@ -90,7 +100,7 @@
         <div class="container5">ellipse</div>
         
         <div class="refresh">refresh</div>
-        <div class="generate">generate</div>
+        <button class="generate" download="GeneratePosters.png">download</button>
 
         <div class="frame1">
         <img class="colorbg1" src="form/white-bg.png">
@@ -153,13 +163,13 @@
     <div class="line2"></div>
     <div class="line4"></div>
     <div class="star6">&diams;</div>
+
     <div class="footer">
         @This is a website for basic poster rendering. 
         <br>To explore more, I can not offer any help due to technology issues.
     </div>
-
-
-
+</div>
     </body>
+
 </html>
 
